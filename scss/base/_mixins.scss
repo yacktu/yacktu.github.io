@@ -1,0 +1,9 @@
+@mixin make-inner-circle-size($radius){
+  width:$radius * 0.95;
+  height:$radius * 0.95;
+}
+
+@mixin make-circle-margin-fix($radius){
+  $inner-radius: ($radius * 0.95) / 2;
+  margin: -#{$inner-radius} 0px 0px -#{$inner-radius};
+}
