@@ -1,0 +1,41 @@
+.navbar {
+  height: 60px;
+  position:relative;
+  z-index: 150;
+  box-shadow: 0 6px 10px rgba(0,0,0, 0.4);
+  margin-bottom: -60px;
+
+  a{
+    font-size:20px;
+    padding-top:20px !important;
+    padding-bottom:15px !important;
+    padding-left:40px !important;
+    padding-right: 40px !important;
+  }
+
+  .navbar-collapse{
+    text-align: center;
+  }
+
+  .navbar-nav{
+    display: inline-block;
+    float: none;
+  }
+}
+
+.navbar-inverse .nav li{
+  a:hover{
+  	outline: 0;
+  	color: $super_light_grey;
+  	background-color: transparent;
+  }
+  a:focus, a:active{
+    color: $text_green;
+  }
+}
+
+.navbar-scrolled{
+  position:fixed;
+  top:0;
+  width:100%;
+}

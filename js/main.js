@@ -7,32 +7,44 @@ $('#nav').affix({
 */
 
 
-$(document).ready(function(){
+$(document).ready(function() {
 
-$('div[href^="#"]').click(function(e){
+    //for smooth scrolling, get the section that im pointing to then move there.
+    $('div[href^="~"]').click(function(e) {
 
-  var target = $(this).attr('href');
-  var strip = target.slice(1);
-  var anchor = $("section[name='"+strip+"']");
+        var target = $(this).attr('href');
+        var strip = target.slice(1);
+        var anchor = $("section[name='" + strip + "']");
 
-  e.preventDefault();
+        e.preventDefault();
 
-  $('html, body').animate({
-    scrollTop:anchor.offset().top
-  }, 1000);
-});
+        $('html, body').animate({
+            scrollTop: anchor.offset().top
+        }, 1000);
+    });
 
-$('a[href^="#"]').click(function(e){
+    //same for when the item in quesion us ising an A tag
+    $('a[href^="~"]').click(function(e) {
 
-  var target = $(this).attr('href');
-  var strip = target.slice(1);
-  var anchor = $("section[name='"+strip+"']");
+        var target = $(this).attr('href');
+        var strip = target.slice(1);
+        var anchor = $("section[name='" + strip + "']");
 
-  e.preventDefault();
+        e.preventDefault();
 
-  $('html, body').animate({
-    scrollTop:anchor.offset().top
-  }, 1000);
-});
+        $('html, body').animate({
+            scrollTop: anchor.offset().top
+        }, 1000);
+    });
+
+    var nav=$(".navbar");
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 991){
+        nav.addClass("navbar-scrolled")
+      }
+      else{
+        nav.removeClass("navbar-scrolled")
+      }
+    });
 
 });

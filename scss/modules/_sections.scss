@@ -1,4 +1,21 @@
 .top-circles{
-  padding-bottom:10%;
-  padding-top:3%;
+  background-color: $top_grey;
+  width: 100%;
+}
+
+.about{
+  background-color: $dark_grey;
+}
+
+.experience{
+  background-color: $light_grey;
+}
+
+.contact{
+  background-color: $top_grey;
+}
+
+.main{
+  position:relative;
+  padding-top:100px;
 }

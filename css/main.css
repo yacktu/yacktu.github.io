@@ -26,80 +26,156 @@
 }
 
 /* line 19, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
-.fix-nav {
-  width: 100% !important;
+.top-line {
+  margin-bottom: 5%;
 }
 
 /* line 23, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
-.nav-wrapper {
-  min-height: 53px;
+.bottom-small-circle {
+  padding-top: 7%;
 }
 
 /* line 2, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
 body {
-  background: #333333;
-  font-family: 'Roboto Condensed', sans-serif;
+  background: #313131;
+  font-family: 'Open Sans', sans-serif;
   color: #00b36b;
-  position: relative;
-  width: 100%;
 }
 
-/* line 10, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+/* line 8, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
 h1 {
   font-size: 80px;
 }
 
-/* line 14, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+/* line 12, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
 h2 {
   font-size: 36px;
 }
 
-/* line 18, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+/* line 16, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
 section {
   padding-top: 6%;
   padding-bottom: 6%;
 }
 
-/* line 23, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
-.affix {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 9999 !important;
-}
-
-/* line 30, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+/* line 21, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
 a {
   z-index: 20;
+}
+
+/* line 25, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+hr {
+  height: 2px;
+  width: 70px;
+  text-align: center;
+  position: relative;
+  background: #00b36b;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  border: 0;
 }
 
 /*MODULES - Site components */
 /* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
 .title {
-  padding-bottom: 4%;
   padding-top: 1%;
+}
+
+/* line 5, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+.about-panel {
+  margin: auto !important;
+  width: 60% !important;
+  padding-bottom: 3%;
+}
+
+/* line 11, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+.panel, .panel-dafault {
+  background-color: #404040;
+  border: 0;
+}
+
+/* line 17, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+.panel-group .panel-heading + .panel-collapse > .panel-body,
+.panel-group .panel-heading + .panel-collapse > .list-group {
+  border-top: 0px solid;
+}
+
+/* line 22, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+.panel-heading {
+  background-color: #2a2a2a !important;
+}
+
+/* line 25, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+.panel-heading a {
+  color: #8c8c8c;
+}
+
+/* line 29, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+.panel-heading a:hover {
+  color: #cccccc;
+}
+
+/* line 33, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+.panel-heading a:active, .panel-heading a:hover, .panel-heading a:focus {
+  text-decoration: none;
+}
+
+/* line 38, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+.contact-title {
+  text-align: center;
+}
+
+/* line 43, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+.row .experience-circles {
+  padding-bottom: 30%;
 }
 
 /* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
 .top-circles {
-  padding-bottom: 10%;
-  padding-top: 3%;
+  background-color: #2a2a2a;
+  width: 100%;
+}
+
+/* line 6, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
+.about {
+  background-color: #313131;
+}
+
+/* line 10, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
+.experience {
+  background-color: #363636;
+}
+
+/* line 14, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
+.contact {
+  background-color: #2a2a2a;
+}
+
+/* line 18, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
+.main {
+  position: relative;
+  padding-top: 100px;
 }
 
 /*highlight/ make bright
   #00e68a
  */
-/* line 4, C:/Coding/CS_Projects/my_website/scss/modules/_components.scss */
+/* line 4, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #big-circle {
   margin: 0 auto;
   width: 400px;
   height: 400px;
-  background: #00995c;
+  background: #00804d;
   border-radius: 50%;
   position: relative;
 }
 
-/* line 13, C:/Coding/CS_Projects/my_website/scss/modules/_components.scss */
+/* line 13, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#innerCircle1 {
+  background-image: url(../img/me.jpg) !important;
+}
+
+/* line 17, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #innerCircle1, #innerCircle2, #innerCircle3, #innerCircle4 {
   width: 380px;
   height: 380px;
@@ -111,23 +187,23 @@ a {
   margin: -190px 0px 0px -190px;
 }
 
-/* line 23, C:/Coding/CS_Projects/my_website/scss/modules/_components.scss */
+/* line 27, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #big-circle:hover {
-  background: #00ff99;
+  background: #00b36c;
   cursor: pointer;
 }
 
-/* line 28, C:/Coding/CS_Projects/my_website/scss/modules/_components.scss */
+/* line 32, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #small-circle {
   margin: 0 auto;
   width: 200px;
   height: 200px;
-  background: #00995c;
+  background: #00804d;
   border-radius: 50%;
   position: relative;
 }
 
-/* line 37, C:/Coding/CS_Projects/my_website/scss/modules/_components.scss */
+/* line 41, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #innerSmall1, #innerSmall2, #innerSmall3, #innerSmall4, #innerSmall5, #innerSmall6, #innerSmall7, #innerSmall8 {
   width: 190px;
   height: 190px;
@@ -139,27 +215,75 @@ a {
   margin: -95px 0px 0px -95px;
 }
 
-/* line 47, C:/Coding/CS_Projects/my_website/scss/modules/_components.scss */
+/* line 51, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #small-circle:hover {
-  background: #00ff99;
+  background: #00b36c;
   cursor: pointer;
 }
 
-/* line 52, C:/Coding/CS_Projects/my_website/scss/modules/_components.scss */
+/* line 56, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 .top-small-circle {
   min-height: 378px;
 }
 
-/* line 56, C:/Coding/CS_Projects/my_website/scss/modules/_components.scss */
-.bottom-small-circle {
-  padding-bottom: 15%;
+/* line 60, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+.top-circles {
+  padding-bottom: 10%;
+  padding-top: 3%;
 }
 
-/* line 60, C:/Coding/CS_Projects/my_website/scss/modules/_components.scss */
+/* line 65, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #collapse-education, #collapse-hobbies {
   padding-top: 3%;
 }
 
 /*LAYOUTS - Styles */
+/* line 1, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+.navbar {
+  height: 60px;
+  position: relative;
+  z-index: 150;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: -60px;
+}
+
+/* line 8, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+.navbar a {
+  font-size: 20px;
+  padding-top: 20px !important;
+  padding-bottom: 15px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+/* line 16, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/* line 20, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+/* line 27, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+.navbar-inverse .nav li a:hover {
+  outline: 0;
+  color: #cccccc;
+  background-color: transparent;
+}
+
+/* line 32, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+.navbar-inverse .nav li a:focus, .navbar-inverse .nav li a:active {
+  color: #00b36b;
+}
+
+/* line 37, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+.navbar-scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 /*# sourceMappingURL=../css/main.map */

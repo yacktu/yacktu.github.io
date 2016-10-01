@@ -1,0 +1,67 @@
+/*highlight/ make bright
+  #00e68a
+ */
+#big-circle{
+  margin: 0 auto;
+  width: $big-circle-radius;
+	height: $big-circle-radius;
+  background: $circle-green;
+  border-radius: 50%;
+  position: relative;
+}
+
+#innerCircle1{
+  background-image: url(../img/me.jpg) !important;
+}
+
+#innerCircle1, #innerCircle2, #innerCircle3, #innerCircle4{
+  @include make-inner-circle-size($big-circle-radius);
+  background: $circle-grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include make-circle-margin-fix($big-circle-radius);
+}
+
+#big-circle:hover{
+  background:lighten($circle-green,10%);
+  cursor:pointer;
+}
+
+#small-circle{
+  margin: 0 auto;
+  width:$small-circle-radius;
+  height:$small-circle-radius;
+  background: $circle-green;
+  border-radius:50%;
+  position:relative;
+}
+
+#innerSmall1,#innerSmall2, #innerSmall3, #innerSmall4, #innerSmall5, #innerSmall6, #innerSmall7, #innerSmall8{
+  @include make-inner-circle-size($small-circle-radius);
+  background: $circle-grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include make-circle-margin-fix($small-circle-radius);
+}
+
+#small-circle:hover{
+  background:lighten($circle-green,10%);
+  cursor:pointer;
+}
+
+.top-small-circle{
+  min-height:378px;
+}
+
+.top-circles{
+  padding-bottom:10%;
+  padding-top:3%;
+}
+
+#collapse-education, #collapse-hobbies{
+  padding-top:3%;
+}

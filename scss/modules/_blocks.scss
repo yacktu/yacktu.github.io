@@ -1,4 +1,46 @@
 .title{
-  padding-bottom:4%;
   padding-top:1%;
+}
+
+.about-panel{
+  margin: auto !important;
+  width: 60% !important;
+  padding-bottom:3%;
+}
+
+.panel, .panel-dafault{
+  background-color: $circle-grey;
+  border: 0;
+}
+
+
+.panel-group .panel-heading + .panel-collapse > .panel-body,
+.panel-group .panel-heading + .panel-collapse > .list-group {
+  border-top: 0px solid;
+}
+
+.panel-heading{
+  background-color: $top_grey !important;
+
+  a{
+    color: #8c8c8c;
+  }
+
+  a:hover{
+    color: $super_light_grey;
+  }
+
+  a:active, a:hover, a:focus{
+    text-decoration: none;
+  }
+}
+
+.contact-title{
+  text-align: center;
+}
+
+.row{
+  .experience-circles{
+    padding-bottom:30%;
+  }
 }
