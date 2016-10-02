@@ -28,7 +28,7 @@
       <div class="col-md-4">
         <h2 class="text-center circle-label">About Me</h2>
         <div id="big-circle" href="~about">
-          <div id="innerCircle1">
+          <div id="me-top-circle">
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@
       <div class="col-md-4">
         <h2 class="text-center circle-label">What I've Done</h2>
         <div id="big-circle" href="~experience">
-          <div id="innerCircle2">
+          <div id="experience-top-circle">
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
       <div class="col-md-4">
         <h2 class="text-center circle-label">Contact Me</h2>
         <div id="big-circle" href="~contact">
-          <div id="innerCircle3">
+          <div id="contact-top-circle">
           </div>
         </div>
       </div>
@@ -85,65 +85,80 @@
           <h3 class="text-center circle-label">Edumacation</h3>
           <div class="top-small-circle">
             <div id="small-circle" data-toggle="collapse" data-target="#collapse-education">
-              <div id="innerSmall1">
+              <div id="education-inner-small-circle">
               </div>
             </div>
 
-            <!--education accordion start-->
-            <div class="collapse" id="collapse-education">
-              <div class="about-panel panel-group" id="education" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="education-heading-one">
-                    <h4 class="panel-title">
+          <!--education accordion start-->
+          <div class="collapse" id="collapse-education">
+            <div class="about-panel panel-group" id="education" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="education-heading-one">
+                  <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#education" href="#collapse-education-one" aria-expanded="true" aria-controls="collapse-education-one">
-                      What + Why
+                      College / University
                     </a>
                   </h4>
-                  </div>
-                  <div id="collapse-education-one" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="education-heading-one">
-                    <div class="panel-body">
-                      What it is
-                    </div>
-                  </div>
                 </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="education-heading-two">
-                    <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#education" href="#collapse-education-two" aria-expanded="false" aria-controls="collapse-education-two">
-                      How it works
-                    </a>
-                  </h4>
-                  </div>
-                  <div id="collapse-education-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="education-heading-two">
-                    <div class="panel-body">
-                      How it works
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="education-heading-three">
-                    <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#education" href="#collapse-education-three" aria-expanded="false" aria-controls="collapse-education-three">
-                      More details
-                    </a>
-                  </h4>
-                  </div>
-                  <div id="collapse-education-three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="education-heading-three">
-                    <div class="panel-body">
-                      Detailed explanation
-                    </div>
+                <div id="collapse-education-one" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="education-heading-one">
+                  <div class="panel-body">
+                    I am currently enrolled as a sophomore in Stony Brook University and plan to graduate in 2019 with a major in Computer Science. As of the end of the spring semester of 2016, I have a cum. GPA of 3.56. Currently I have taken the following CS courses:
+                    <br />
+                    <ul>
+                      <li>
+                        CSE 114 - Intro to Computer Science
+                      </li>
+                      <li>
+                        CSE 214 - Intro to Data Structures
+                      </li>
+                      <li>
+                        CSE 215 - Foundations of Computer Science (Logic + Proofs)
+                      </li>
+                      <li>
+                        CSE 219 - GUI Programing (Currently Taking)
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <!-- education accordian stop-->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="education-heading-two">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#education" href="#collapse-education-two" aria-expanded="false" aria-controls="collapse-education-two">
+                      High School
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapse-education-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="education-heading-two">
+                  <div class="panel-body">
+                    I spent my days in Flushing High School, a not so great high school that I enjoyed. I Graduated with a Cum. GPA of 96 and was a part of many teams and programs such as:
+                    <ul>
+                      <li>
+                        Track and Field
+                      </li>
+                      <li>
+                        Math Team (Placed 1st, 2nd, or 3rd four times)
+                      </li>
+                      <li>
+                        Handball Team (Division Champs EYY)
+                      </li>
+                      <li>
+                        Arista Honors Society
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- education accordian stop-->
+          </div>
 
           </div>
 
           <!--bottom left circle-->
           <div class="bottom-small-circle">
             <div id="small-circle" data-toggle="collapse" data-target="#collapse-athletic">
-              <div id="innerSmall2">
+              <div id="athletic-circle">
               </div>
             </div>
             <h3 class="text-center circle-label">Athletic Nerd</h3>
@@ -157,13 +172,13 @@
                 <div class="panel-heading" role="tab" id="athletic-heading-one">
                   <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#athletic" href="#athletic-collapse-one" aria-expanded="true" aria-controls="athletic-collapse-one">
-                      What + Why
+                      Handball
                     </a>
                   </h4>
                 </div>
                 <div id="athletic-collapse-one" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="athletic-heading-one">
                   <div class="panel-body">
-                    What it is
+                    I've been playing handball for over five years now and it's the one thing that my and my friends enjoy. I play three times a week for Stony Brook's Handball Team, and once a week for me and my friends. ASK ME FOR A GAME!
                   </div>
                 </div>
               </div>
@@ -171,13 +186,14 @@
                 <div class="panel-heading" role="tab" id="athletic-heading-two">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#athletic" href="#athletic-collapse-two" aria-expanded="false" aria-controls="athletic-collapse-two">
-                      How it works
+                      Working Out
                     </a>
                   </h4>
                 </div>
                 <div id="athletic-collapse-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="athletic-heading-two">
                   <div class="panel-body">
-                    How it works
+                    Working out is an interesting concept for me. I work out four times a week, and run three times a week. That way I hit the gym 7 days a week. This is important for me because I feel this keeps me from ever getting a taste of laziness. My main goal from
+                    working out is to be able to do the human flag. I started training for this the summer of 2016, and I hope to be able to do it within the next two years. Oh and being healthy is important too I guess?
                   </div>
                 </div>
               </div>
@@ -185,13 +201,13 @@
                 <div class="panel-heading" role="tab" id="athletic-heading-three">
                   <h4 class="panel-title">
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#athletic" href="#athletic-collapse-three" aria-expanded="false" aria-controls="athletic-collapse-three">
-                      More details
+                      Biking
                     </a>
                   </h4>
                 </div>
                 <div id="athletic-collapse-three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="athletic-heading-three">
                   <div class="panel-body">
-                    Detailed explanation
+                    I enjoy biking alot, but it's hard to go for many rides while on campus. There's just too much work to do and too little places to ride. On breaks in the summer, my friends and I used to ride 20-40 miles each ride with breaks for food (too many)
                   </div>
                 </div>
               </div>
@@ -205,7 +221,7 @@
           <h2 class="text-center circle-label">The One and Only</h2>
           <hr />
           <div id="big-circle">
-            <div id="innerCircle4">
+            <div id="me-person-big-circle">
             </div>
           </div>
         </div>
@@ -215,120 +231,147 @@
           <h3 class="text-center circle-label">Hobbies</h3>
           <div class="top-small-circle">
             <div id="small-circle" data-toggle="collapse" data-target="#collapse-hobbies">
-              <div id="innerSmall3">
+              <div id="hobbies-circle">
               </div>
             </div>
 
-            <div class="collapse" id="collapse-hobbies">
-              <!--hobby accordion start-->
-              <div class="about-panel panel-group" id="hobbies" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="hobbies-heading-one">
-                    <h4 class="panel-title">
+          <div class="collapse" id="collapse-hobbies">
+            <!--hobby accordion start-->
+            <div class="about-panel panel-group" id="hobbies" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="hobbies-heading-one">
+                  <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#hobbies" href="#hobbies-collapse-one" aria-expanded="true" aria-controls="hobbies-collapse-one">
-                      What + Why
+                      THE QUBE
                     </a>
                   </h4>
-                  </div>
-                  <div id="hobbies-collapse-one" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="hobbies-heading-one">
-                    <div class="panel-body">
-                      What it is
-                    </div>
-                  </div>
                 </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="hobbies-heading-two">
-                    <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#hobbies" href="#hobbies-collapse-two" aria-expanded="false" aria-controls="hobbies-collapse-two">
-                      How it works
-                    </a>
-                  </h4>
-                  </div>
-                  <div id="hobbies-collapse-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hobbies-heading-two">
-                    <div class="panel-body">
-                      How it works
-                    </div>
-                  </div>
-                </div>
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="hobbies-heading-three">
-                    <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#hobbies" href="#hobbies-collapse-three" aria-expanded="false" aria-controls="hobbies-collapse-three">
-                      More details
-                    </a>
-                  </h4>
-                  </div>
-                  <div id="hobbies-collapse-three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hobbies-heading-three">
-                    <div class="panel-body">
-                      Detailed explanation
-                    </div>
+                <div id="hobbies-collapse-one" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="hobbies-heading-one">
+                  <div class="panel-body">
+                    The Rubiks Cube is one of the things that I love. It's so complex yet so simple. Now, im not as addicted to it, so I only solve it when im traveling
+                    as a way to pass time, but when I first started, it was my child. I spent two days learning the beginners and advanced methods and then another day memoriszing
+                    a bunch of algorithms. Within a week I got my personal best down to 15 seconds. Now that i've gotten less addicted, I can only average 30 seconds, but
+                    never the less it is a fun piece of plastic.
                   </div>
                 </div>
               </div>
-              <!-- hobby accordian stop-->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="hobbies-heading-two">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#hobbies" href="#hobbies-collapse-two" aria-expanded="false" aria-controls="hobbies-collapse-two">
+                      Video Games
+                    </a>
+                  </h4>
+                </div>
+                <div id="hobbies-collapse-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hobbies-heading-two">
+                  <div class="panel-body">
+                    Of course as a tech enthusiast, I enjoy my video games. I don't play any daily anymore as college and coding eats up alot of time but some of
+                    the games i've played and or still play once in a while are:
+                    <ul>
+                      <li>
+                        League of Legends (of course)
+                      </li>
+                      <li>
+                        Hearthstone
+                      </li>
+                      <li>
+                        Counter Strike Global Offensive
+                      </li>
+                      <li>
+                        Left for Dead 2
+                      </li>
+                      <li>
+                        Overwatch
+                      </li>
+                      <li>
+                        A bunch of simulation games on Steam
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="hobbies-heading-three">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#hobbies" href="#hobbies-collapse-three" aria-expanded="false" aria-controls="hobbies-collapse-three">
+                      Coding
+                    </a>
+                  </h4>
+                </div>
+                <div id="hobbies-collapse-three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hobbies-heading-three">
+                  <div class="panel-body">
+                    Of course I enjoy coding, It would be a big problem if I didn't enjoy the thing im studying. I'm more of a backend kind of person, I really enjoy
+                    working with algorithms and solving interesting problems. I really enjoy learning new things and their flaws + annoyances *cough* javascript *cough*, what
+                    you're reading now is the work of many many hours on youtube and google, and i've gone through many many interesting problems to deliver this unread message #CSSIsAnnoying
+                  </div>
+                </div>
+              </div>
             </div>
-
+            <!-- hobby accordian stop-->
           </div>
+
+        </div>
 
           <!--hackathon circle-->
           <div class="bottom-small-circle">
-            <div id="small-circle" data-toggle="collapse" data-target="#collapse-hacks">
-              <div id="innerSmall4">
+            <div id="small-circle" data-toggle="collapse" data-target="#collapse-describe-me">
+              <div id="describe-me-circle">
               </div>
             </div>
-            <h3 class="text-center circle-label">Hackathons</h3>
+            <h3 class="text-center circle-label">Extra Stuffs</h3>
           </div>
 
           <!--hacks accordion start-->
-          <div class="collapse" id="collapse-hacks">
-            <div class="about-panel panel-group" id="hackathons" role="tablist" aria-multiselectable="true">
+          <div class="collapse" id="collapse-describe-me">
+            <div class="about-panel panel-group" id="describe-me" role="tablist" aria-multiselectable="true">
               <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="hackathon-heading-one">
+                <div class="panel-heading" role="tab" id="describe-me-heading-one">
                   <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#hackathons" href="#hackathon-collapse-one" aria-expanded="true" aria-controls="hackathon-collapse-one">
-                    What + Why
+                  <a role="button" data-toggle="collapse" data-parent="#describe-me" href="#describe-me-collapse-one" aria-expanded="true" aria-controls="describe-me-collapse-one">
+                    Survival of the Fitest
                   </a>
                 </h4>
                 </div>
-                <div id="hackathon-collapse-one" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="hackathon-heading-one">
+                <div id="describe-me-collapse-one" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="describe-me-heading-one">
                   <div class="panel-body">
-                    What it is
+                    I belive in this concept where I wear shorts in the winter, and take cold showers at least five times a week. I feel like if I embrace the cold, I can resist it and
+                    then be immune to the diseases that come with the cold weather like the flu and the common cold. (Has worked so far, hope I don't jinx it)
                   </div>
                 </div>
               </div>
               <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="hackathon-heading-two">
+                <div class="panel-heading" role="tab" id="describe-me-heading-two">
                   <h4 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#hackathons" href="#hackathon-collapse-two" aria-expanded="false" aria-controls="hackathon-collapse-two">
-                    How it works
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#describe-me" href="#describe-me-collapse-two" aria-expanded="false" aria-controls="describe-me-collapse-two">
+                    FOODS?
                   </a>
                 </h4>
                 </div>
-                <div id="hackathon-collapse-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hackathon-heading-two">
+                <div id="describe-me-collapse-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="describe-me-heading-two">
                   <div class="panel-body">
-                    How it works
+                    I hate pizza. I'm one of the few people in the world who just simply dislikes pizza. This might seem good in that I don't get the calories that pizza gives me,
+                    but in reality it doens't really effect me. I've been at my skinny 140 pounds for as long as I can remember, but yet I eat like a truck. I'm one of those people
+                    that the owners of all you can eat buffets hate. For an exmaple at this noodle place I go to, I typically order three entrees and an appetizer just for my self
                   </div>
                 </div>
               </div>
               <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="hackathon-heading-three">
+                <div class="panel-heading" role="tab" id="describe-me-heading-three">
                   <h4 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#hackathons" href="#hackathon-collapse-three" aria-expanded="false" aria-controls="hackathon-collapse-three">
-                    More details
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#describe-me" href="#describe-me-collapse-three" aria-expanded="false" aria-controls="describe-me-collapse-three">
+                    TEA!
                   </a>
                 </h4>
                 </div>
-                <div id="hackathon-collapse-three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="hackathon-heading-three">
+                <div id="describe-me-collapse-three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="describe-me-heading-three">
                   <div class="panel-body">
-                    Detailed explanation
+                    Tea is good. Tea is great, Tea is Coffee. Tea is shipped from China to be made where I currently am. Tea is good. 
                   </div>
                 </div>
               </div>
             </div>
             <!--hacks accordian stop-->
           </div>
-
-        </div>
 
       </div>
     </section>
@@ -343,28 +386,28 @@
           <div class="col-md-3">
             <h3 class="text-center circle-label">Game of Life</h3>
             <div id="small-circle">
-              <div id="innerSmall2">
+              <div id="game-of-life-circle">
               </div>
             </div>
           </div>
           <div class="col-md-3">
             <h3 class="text-center circle-label">Porodomo Timer</h3>
             <div id="small-circle">
-              <div id="innerSmall2">
+              <div id="porodomo-timer-circle">
               </div>
             </div>
           </div>
           <div class="col-md-3">
             <h3 class="text-center circle-label">Playlist Generator</h3>
             <div id="small-circle">
-              <div id="innerSmall2">
+              <div id="playlist-generator-circle">
               </div>
             </div>
           </div>
           <div class="col-md-3">
             <h3 class="text-center circle-label">TBA</h3>
             <div id="small-circle">
-              <div id="innerSmall2">
+              <div id="etc-circle">
               </div>
             </div>
           </div>

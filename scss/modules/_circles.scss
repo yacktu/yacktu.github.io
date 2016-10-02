@@ -10,11 +10,7 @@
   position: relative;
 }
 
-#innerCircle1{
-  background-image: url(../img/me.jpg) !important;
-}
-
-#innerCircle1, #innerCircle2, #innerCircle3, #innerCircle4{
+#me-top-circle, #experience-top-circle, #contact-top-circle, #me-person-big-circle{
   @include make-inner-circle-size($big-circle-radius);
   background: $circle-grey;
   border-radius: 50%;
@@ -38,7 +34,7 @@
   position:relative;
 }
 
-#innerSmall1,#innerSmall2, #innerSmall3, #innerSmall4, #innerSmall5, #innerSmall6, #innerSmall7, #innerSmall8{
+#education-inner-small-circle,#athletic-circle, #hobbies-circle, #describe-me-circle, #game-of-life-circle, #porodomo-timer-circle, #playlist-generator-circle, #etc-circle{
   @include make-inner-circle-size($small-circle-radius);
   background: $circle-grey;
   border-radius: 50%;
@@ -53,6 +49,7 @@
   cursor:pointer;
 }
 
+
 .top-small-circle{
   min-height:378px;
 }
@@ -64,4 +61,37 @@
 
 #collapse-education, #collapse-hobbies{
   padding-top:3%;
+}
+
+//Add pictures to circles
+#me-top-circle{
+  background-image: url(../img/me.jpg) !important;
+}
+
+#experience-top-circle{
+  background-image: url(../img/code.jpg) !important;
+}
+
+#contact-top-circle{
+  background-image: url(../img/contact.jpg) !important;
+}
+
+#me-person-big-circle{
+  background-image: url(../img/me-person.jpg) !important;
+}
+
+#education-inner-small-circle{
+  background-image: url(../img/SBU.jpg) !important;
+}
+
+#hobbies-circle{
+  background-image: url(../img/qube.jpg) !important;
+}
+
+#athletic-circle{
+  background-image: url(../img/handball.jpg) !important;
+}
+
+#describe-me-circle{
+  background-image: url(../img/tea.jpg) !important;
 }

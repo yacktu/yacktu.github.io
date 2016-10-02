@@ -84,7 +84,7 @@ hr {
 /* line 5, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
 .about-panel {
   margin: auto !important;
-  width: 60% !important;
+  width: 75% !important;
   padding-bottom: 3%;
 }
 
@@ -165,18 +165,13 @@ hr {
   margin: 0 auto;
   width: 400px;
   height: 400px;
-  background: #00804d;
+  background: #00995c;
   border-radius: 50%;
   position: relative;
 }
 
 /* line 13, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
-#innerCircle1 {
-  background-image: url(../img/me.jpg) !important;
-}
-
-/* line 17, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
-#innerCircle1, #innerCircle2, #innerCircle3, #innerCircle4 {
+#me-top-circle, #experience-top-circle, #contact-top-circle, #me-person-big-circle {
   width: 380px;
   height: 380px;
   background: #404040;
@@ -187,24 +182,24 @@ hr {
   margin: -190px 0px 0px -190px;
 }
 
-/* line 27, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 23, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #big-circle:hover {
-  background: #00b36c;
+  background: #00cc7b;
   cursor: pointer;
 }
 
-/* line 32, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 28, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #small-circle {
   margin: 0 auto;
   width: 200px;
   height: 200px;
-  background: #00804d;
+  background: #00995c;
   border-radius: 50%;
   position: relative;
 }
 
-/* line 41, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
-#innerSmall1, #innerSmall2, #innerSmall3, #innerSmall4, #innerSmall5, #innerSmall6, #innerSmall7, #innerSmall8 {
+/* line 37, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#education-inner-small-circle, #athletic-circle, #hobbies-circle, #describe-me-circle, #game-of-life-circle, #porodomo-timer-circle, #playlist-generator-circle, #etc-circle {
   width: 190px;
   height: 190px;
   background: #404040;
@@ -215,26 +210,66 @@ hr {
   margin: -95px 0px 0px -95px;
 }
 
-/* line 51, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 47, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #small-circle:hover {
-  background: #00b36c;
+  background: #00cc7b;
   cursor: pointer;
 }
 
-/* line 56, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 53, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 .top-small-circle {
   min-height: 378px;
 }
 
-/* line 60, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 57, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 .top-circles {
   padding-bottom: 10%;
   padding-top: 3%;
 }
 
-/* line 65, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 62, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #collapse-education, #collapse-hobbies {
   padding-top: 3%;
+}
+
+/* line 67, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#me-top-circle {
+  background-image: url(../img/me.jpg) !important;
+}
+
+/* line 71, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#experience-top-circle {
+  background-image: url(../img/code.jpg) !important;
+}
+
+/* line 75, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#contact-top-circle {
+  background-image: url(../img/contact.jpg) !important;
+}
+
+/* line 79, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#me-person-big-circle {
+  background-image: url(../img/me-person.jpg) !important;
+}
+
+/* line 83, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#education-inner-small-circle {
+  background-image: url(../img/SBU.jpg) !important;
+}
+
+/* line 87, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#hobbies-circle {
+  background-image: url(../img/qube.jpg) !important;
+}
+
+/* line 91, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#athletic-circle {
+  background-image: url(../img/handball.jpg) !important;
+}
+
+/* line 95, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#describe-me-circle {
+  background-image: url(../img/tea.jpg) !important;
 }
 
 /*LAYOUTS - Styles */
