@@ -50,26 +50,23 @@ $(document).ready(function() {
 
     var expCarousel=$('#experience-carousel');
     var explCarousel=$('#explain-carousel');
-    //change carousel number
+
+    expCarousel.carousel("pause");
+    explCarousel.carousel("pause");
+
     $('#game-of-life-circle').click(function(){
       expCarousel.carousel(0);
       explCarousel.carousel(0);
-      expCarousel.carousel("pause");
-      explCarousel.carousel("pause");
     });
 
     $('#porodomo-timer-circle').click(function(){
       expCarousel.carousel(1);
       explCarousel.carousel(1);
-      expCarousel.carousel("pause");
-      explCarousel.carousel("pause");
     });
 
     $('#playlist-generator-circle').click(function(){
       expCarousel.carousel(2);
       explCarousel.carousel(2);
-      expCarousel.carousel("pause");
-      explCarousel.carousel("pause");
     });
 
     //change the experience description carousel as i change the main experience carrousel
@@ -79,4 +76,14 @@ $(document).ready(function() {
     $('.right').click(function(){
       explCarousel.carousel("next");
     });
+
+    $('.exp-indicator0').click(function(){
+      explCarousel.carousel(0);
+    })
+    $('.exp-indicator1').click(function(){
+      explCarousel.carousel(1);
+    })
+    $('.exp-indicator2').click(function(){
+      explCarousel.carousel(2);
+    })
 });

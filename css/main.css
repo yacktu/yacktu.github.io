@@ -44,13 +44,18 @@
 /* line 32, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
 .experience-carousel {
   padding: 20px;
-  border-radius: 2%;
+  border-radius: 10px;
   background-color: #313131;
 }
 
 /* line 38, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
 .experience-accordian-head {
   text-align: center;
+}
+
+/* line 42, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+.main {
+  padding-bottom: 0;
 }
 
 /* line 2, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
@@ -94,6 +99,25 @@ hr {
 }
 
 /*MODULES - Site components */
+/* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_typography.scss */
+.social-icons {
+  text-align: center;
+  padding-left: 27px;
+  padding-top: 30px;
+}
+
+/* line 6, C:/Coding/CS_Projects/my_website/scss/modules/_typography.scss */
+.social-icons a {
+  color: #00995c;
+}
+
+/* line 11, C:/Coding/CS_Projects/my_website/scss/modules/_typography.scss */
+.fa {
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
 .title {
   padding-top: 1%;
@@ -146,6 +170,66 @@ hr {
 /* line 43, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
 .row .experience-circles {
   padding-bottom: 20%;
+}
+
+/* line 48, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+.contact-contain {
+  width: 750px;
+  padding-left: 50px;
+}
+
+/* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+.name-input {
+  width: 200px;
+}
+
+/* line 5, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+.name-form {
+  padding-left: 15px;
+}
+
+/* line 9, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+.message-input {
+  height: 200px;
+  width: 685px;
+  max-width: 685px;
+  border-radius: 6px;
+}
+
+/* line 17, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+.form-group .form-control {
+  border-bottom: 5px solid;
+  border-color: #00995c;
+}
+
+/* line 22, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+.form-group .message-input {
+  border-bottom: 5px solid;
+  border-color: #00995c;
+}
+
+/* line 28, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+.submit-button {
+  margin-left: 44%;
+  margin-top: 10px;
+  width: 75px;
+  height: 75px;
+  background: #00995c;
+  border-radius: 50%;
+  border: 0;
+  position: relative;
+  color: black;
+  font-size: 18px;
+}
+
+/* line 41, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+.submit-button:hover {
+  background: #00cc7b;
+}
+
+/* line 45, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+.submit-button:active, .submit-button:focus {
+  border: 0;
 }
 
 /* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */

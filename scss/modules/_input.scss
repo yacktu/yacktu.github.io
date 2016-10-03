@@ -1,0 +1,47 @@
+.name-input{
+  width:200px;
+}
+
+.name-form{
+  padding-left:15px;
+}
+
+.message-input{
+  height: 200px;
+  width: 685px;
+  max-width: 685px;
+  border-radius: 6px;
+}
+
+.form-group{
+  .form-control{
+    border-bottom: 5px solid;
+    border-color:$circle-green;
+  }
+
+  .message-input{
+    border-bottom: 5px solid;
+    border-color:$circle-green;
+  }
+}
+
+.submit-button{
+  margin-left:44%;
+  margin-top:10px;
+  width:75px;
+  height:75px;
+  background: $circle-green;
+  border-radius:50%;
+  border:0;
+  position:relative;
+  color:black;
+  font-size:18px;
+}
+
+.submit-button:hover{
+  background: lighten($circle-green,10%);
+}
+
+.submit-button:active, .submit-button:focus{
+  border:0;
+}
