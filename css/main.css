@@ -35,6 +35,24 @@
   padding-top: 7%;
 }
 
+/* line 27, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+.carousel-caption {
+  background: #00cc7b;
+  border-radius: 45%;
+}
+
+/* line 32, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+.experience-carousel {
+  padding: 20px;
+  border-radius: 2%;
+  background-color: #313131;
+}
+
+/* line 38, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+.experience-accordian-head {
+  text-align: center;
+}
+
 /* line 2, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
 body {
   background: #313131;
@@ -127,7 +145,7 @@ hr {
 
 /* line 43, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
 .row .experience-circles {
-  padding-bottom: 30%;
+  padding-bottom: 20%;
 }
 
 /* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
@@ -270,6 +288,21 @@ hr {
 /* line 95, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #describe-me-circle {
   background-image: url(../img/tea.jpg) !important;
+}
+
+/* line 99, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#game-of-life-circle {
+  background-image: url(../img/gol-small.jpg) !important;
+}
+
+/* line 103, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#porodomo-timer-circle {
+  background-image: url(../img/timer-small.jpg) !important;
+}
+
+/* line 107, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+#playlist-generator-circle {
+  background-image: url(../img/jam-small.jpg) !important;
 }
 
 /*LAYOUTS - Styles */

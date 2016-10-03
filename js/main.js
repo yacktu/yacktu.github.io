@@ -37,6 +37,7 @@ $(document).ready(function() {
         }, 1000);
     });
 
+    //make navbar smoothly scroll as you do
     var nav=$(".navbar");
     $(window).scroll(function(){
       if($(this).scrollTop() > 991){
@@ -47,4 +48,35 @@ $(document).ready(function() {
       }
     });
 
+    var expCarousel=$('#experience-carousel');
+    var explCarousel=$('#explain-carousel');
+    //change carousel number
+    $('#game-of-life-circle').click(function(){
+      expCarousel.carousel(0);
+      explCarousel.carousel(0);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
+    });
+
+    $('#porodomo-timer-circle').click(function(){
+      expCarousel.carousel(1);
+      explCarousel.carousel(1);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
+    });
+
+    $('#playlist-generator-circle').click(function(){
+      expCarousel.carousel(2);
+      explCarousel.carousel(2);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
+    });
+
+    //change the experience description carousel as i change the main experience carrousel
+    $('.left').click(function(){
+      explCarousel.carousel("prev");
+    });
+    $('.right').click(function(){
+      explCarousel.carousel("next");
+    });
 });

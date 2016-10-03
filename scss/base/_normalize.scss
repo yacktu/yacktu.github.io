@@ -23,3 +23,18 @@
 .bottom-small-circle{
   padding-top:7%;
 }
+
+.carousel-caption{
+  background:lighten($circle-green,10%);
+  border-radius: 45%;
+}
+
+.experience-carousel{
+  padding: 20px;
+  border-radius: 2%;
+  background-color: $dark_grey;
+}
+
+.experience-accordian-head{
+  text-align: center;
+}
