@@ -25,6 +25,12 @@
   cursor:pointer;
 }
 
+.me-circle-no-highlight:hover, .etc-circle-no-highlight:hover{
+  //take out when add spin
+  background:$circle-green !important;
+  cursor:default !important;
+}
+
 #small-circle{
   margin: 0 auto;
   width:$small-circle-radius;

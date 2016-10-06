@@ -218,9 +218,10 @@
 
         <!-- middle cirlce - me-->
         <div class="col-md-4 about-circle-row">
-          <h2 class="text-center circle-label">The One and Only</h2>
+          <h2 class="text-center circle-label">That Random Dude Staring:
+            <br /> Jack Wu</h2>
           <hr />
-          <div id="big-circle">
+          <div id="big-circle" class="me-circle-no-highlight">
             <div id="me-person-big-circle">
             </div>
           </div>
@@ -402,7 +403,7 @@
           </div>
           <div class="col-md-3">
             <h3 class="text-center circle-label">Text Game TBA</h3>
-            <div id="small-circle">
+            <div id="small-circle" class="etc-circle-no-highlight">
               <div id="etc-circle">
               </div>
             </div>
@@ -485,7 +486,25 @@
                       </div>
                       <div id="GOLcollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="GOL-heading-one">
                         <div class="panel-body">
-                          What it is
+                          The game of life is a game created by John Conway. It is a simulator for a given neighborhood with a set of rules for each "cycle", a cycle being
+                          checked all spaces on the current board.
+                          The rules being:
+                          <ul>
+                            For each space that already has a home:
+                            <li>
+                              If the space has 0 to 1 neighbors, it dies by starvation
+                            </li>
+                            <li>
+                              If the space has four or more neighbors, it dies by overpopulation
+                            </li>
+                            <li>
+                              If the has 2-3 neighbors, it survives
+                            </li>
+                            For each space that has no home on it:
+                            <li>
+                              It becomes populated if it has exactly three neighbors
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -493,13 +512,18 @@
                       <div class="panel-heading" role="tab" id="GOL-heading-two">
                         <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#GOL-accordion" href="#GOLcollapseTwo" aria-expanded="false" aria-controls="GOLcollapseTwo">
-                          How it works
+                          How it Works
+                          </thead>
                         </a>
                       </h4>
                       </div>
                       <div id="GOLcollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="GOL-heading-two">
                         <div class="panel-body">
-                          How it works
+                          This project was created without any proper workflow, and is essentially just one by Java file. I am currently porting it into a website
+                          using javascript, it was originaly done in a self taught way. Now that i've taken some courses on the structure of programs, I feel I will create it in
+                          a much more modular way. The general algorithm is to save each living house, and check that house and it's neighboring houses if they meet the requirements.
+                          I pass each house that lives into a stack and repopulate the next cycle of the board. I'm working on a double recursion algorithm, which will be up along side <thead>
+                          website that will be up.
                         </div>
                       </div>
                     </div>
@@ -513,7 +537,8 @@
                       </div>
                       <div id="GOLcollapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="GOL-heading-three">
                         <div class="panel-body">
-                          Detailed explanation
+                          Current Github Link:
+                           <a href="https://github.com/yacktu/game_of_life" target = "_blank">Here</a>
                         </div>
                       </div>
                     </div>
@@ -529,13 +554,14 @@
                       <div class="panel-heading" role="tab" id="timerHeadingOne">
                         <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#Timer-accordion" href="#timerCollapseOne" aria-expanded="true" aria-controls="timerCollapseOne">
-                      What + Why
+                      What is it?
                     </a>
                   </h4>
                       </div>
                       <div id="timerCollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="timerHeadingOne">
                         <div class="panel-body">
-                          What it is
+                          The porodomo timer is a timer used as a study method. It basically times your for 25 minutes, and then gives you
+                          five minutes of break.
                         </div>
                       </div>
                     </div>
@@ -549,7 +575,9 @@
                       </div>
                       <div id="timerCollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="timerHeadingTwo">
                         <div class="panel-body">
-                          How it works
+                          My implementation of this was done at a 12 hour hackathon (my first one) and I won runner up for most intricate. The reason it was different was because this was an extension
+                          for google chrome. Normaly, google chrome extensions stop updating themselves when the extension is minimized, so I had to work around that using google background scripts.
+                          I wanted the timer to keep running in the background, and alert the user from the background when the time is up.
                         </div>
                       </div>
                     </div>
@@ -563,7 +591,8 @@
                       </div>
                       <div id="timerCollapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="timerHeadingThree">
                         <div class="panel-body">
-                          Detailed explanation
+                          Link to github:
+                          <a href="https://github.com/yacktu/TimerExtension" targer="_blank">Here</a>
                         </div>
                       </div>
                     </div>
@@ -579,13 +608,17 @@
                       <div class="panel-heading" role="tab" id="JamHeadingOne">
                         <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#jam-accordion" href="#jamCollapseOne" aria-expanded="true" aria-controls="jamCollapseOne">
-                      What + Why
+                      What is Jam?
                     </a>
                   </h4>
                       </div>
                       <div id="jamCollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="JamHeadingOne">
                         <div class="panel-body">
-                          What it is
+                          Jam is a playlist generator that uses a reddit style voting system to generate a playlist given songs that were chosen
+                          through a spotify API. This was the first project I've ever worked on, and it was done after learning two weeks of code at
+                          Google's CSSI program. I worked on this with two other teamates, and I was responsible for the backend (server, voting, user-accounts).
+                          This was originally done because our instructor at the time had a horrible spotify playlist, so we decided to create one in which the entire
+                          class could vote on what song to put on the playlist and in what order.
                         </div>
                       </div>
                     </div>
@@ -599,7 +632,11 @@
                       </div>
                       <div id="jamCollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="JamHeadingTwo">
                         <div class="panel-body">
-                          How it works
+                          The part that I worked on involved three things: User login, The Voting system, and Database communications. The user
+                          login was quite simple in that I just used the Google's users API. The voting system was a little more tricky, since I wanted to provide
+                          instant feedback to the user, so I had to learn a bit of AJAX to get the voting system to change dynamically  without refreshing the page.
+                          The voting system also had to have user verification so one person would not be able to vote more than once, but would still be able to change their vote.
+                          This involved multiple many-to-many relationships in the database since I had to store the song, votes on the song, and users that voted on each song.
                         </div>
                       </div>
                     </div>
@@ -613,7 +650,11 @@
                       </div>
                       <div id="jamCollapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="JamHeadingThree">
                         <div class="panel-body">
-                          Detailed explanation
+                          Outdated Website:
+                          <a href="http://jam-cssi.appspot.com/" target="_blank">Here</a>
+                          <br />
+                          Github link:
+                          <a href="https://github.com/carolineclancy/cssi_spotify" target="_blank">Here</a>
                         </div>
                       </div>
                     </div>
@@ -633,6 +674,7 @@
     <section class="contact" name="contact">
       <h1 class="contact-title">Contact</h1>
       <hr />
+
       <div class="container contact-contain">
         <div class="row ">
           <div class="col-md-4">
@@ -652,10 +694,17 @@
         <div class="form-group">
           <label for "message"> Message</label>
           <br />
-          <textarea form="contact-form" class="message-input" placeholder="Message"></textarea>
+          <textarea form="contact-form" class="message-input" placeholder="Message">Currently does not work since the site is not hosted on a server yet</textarea>
         </div>
-        <button type="button" class="submit-button">Send</button>
+        <button type="button" class="submit-button" disabled>Send</button>
         </form>
+      </div>
+
+    <section class="footer">
+      <div class="contact-info">
+        jack.wu.11354@gmail.com
+        <span class="dot-contact">·</span>
+        917-892-6535
       </div>
       <div class="social-icons">
         <a href="https://www.facebook.com/YackTu?ref=bookmarks" target="_blank">
@@ -667,6 +716,7 @@
 
       </div>
 
+    </section>
     </section>
   </section>
 

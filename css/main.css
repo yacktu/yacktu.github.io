@@ -58,6 +58,11 @@
   padding-bottom: 0;
 }
 
+/* line 46, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+.dot-contact {
+  font-size: 25px;
+}
+
 /* line 2, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
 body {
   background: #313131;
@@ -222,14 +227,19 @@ hr {
   font-size: 18px;
 }
 
-/* line 41, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
-.submit-button:hover {
-  background: #00cc7b;
+/*
+.submit-button:hover{
+  background: lighten($circle-green,10%);
 }
-
-/* line 45, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+*/
+/* line 47, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
 .submit-button:active, .submit-button:focus {
   border: 0;
+}
+
+/* line 51, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+.contact {
+  padding-bottom: 0;
 }
 
 /* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
@@ -291,6 +301,12 @@ hr {
 }
 
 /* line 28, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+.me-circle-no-highlight:hover, .etc-circle-no-highlight:hover {
+  background: #00995c !important;
+  cursor: default !important;
+}
+
+/* line 34, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #small-circle {
   margin: 0 auto;
   width: 200px;
@@ -300,7 +316,7 @@ hr {
   position: relative;
 }
 
-/* line 37, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 43, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #education-inner-small-circle, #athletic-circle, #hobbies-circle, #describe-me-circle, #game-of-life-circle, #porodomo-timer-circle, #playlist-generator-circle, #etc-circle {
   width: 190px;
   height: 190px;
@@ -312,79 +328,79 @@ hr {
   margin: -95px 0px 0px -95px;
 }
 
-/* line 47, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 53, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #small-circle:hover {
   background: #00cc7b;
   cursor: pointer;
 }
 
-/* line 53, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 59, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 .top-small-circle {
   min-height: 378px;
 }
 
-/* line 57, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 63, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 .top-circles {
   padding-bottom: 10%;
   padding-top: 3%;
 }
 
-/* line 62, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 68, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #collapse-education, #collapse-hobbies {
   padding-top: 3%;
 }
 
-/* line 67, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 73, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #me-top-circle {
   background-image: url(../img/me.jpg) !important;
 }
 
-/* line 71, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 77, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #experience-top-circle {
   background-image: url(../img/code.jpg) !important;
 }
 
-/* line 75, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 81, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #contact-top-circle {
   background-image: url(../img/contact.jpg) !important;
 }
 
-/* line 79, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 85, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #me-person-big-circle {
   background-image: url(../img/me-person.jpg) !important;
 }
 
-/* line 83, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 89, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #education-inner-small-circle {
   background-image: url(../img/SBU.jpg) !important;
 }
 
-/* line 87, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 93, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #hobbies-circle {
   background-image: url(../img/qube.jpg) !important;
 }
 
-/* line 91, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 97, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #athletic-circle {
   background-image: url(../img/handball.jpg) !important;
 }
 
-/* line 95, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 101, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #describe-me-circle {
   background-image: url(../img/tea.jpg) !important;
 }
 
-/* line 99, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 105, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #game-of-life-circle {
   background-image: url(../img/gol-small.jpg) !important;
 }
 
-/* line 103, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 109, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #porodomo-timer-circle {
   background-image: url(../img/timer-small.jpg) !important;
 }
 
-/* line 107, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 113, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
 #playlist-generator-circle {
   background-image: url(../img/jam-small.jpg) !important;
 }
@@ -436,6 +452,12 @@ hr {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+/* line 1, C:/Coding/CS_Projects/my_website/scss/layouts/_footer.scss */
+.contact-info {
+  text-align: center;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=../css/main.map */

@@ -38,10 +38,16 @@
   font-size:18px;
 }
 
+/*
 .submit-button:hover{
   background: lighten($circle-green,10%);
 }
+*/
 
 .submit-button:active, .submit-button:focus{
   border:0;
+}
+
+.contact{
+  padding-bottom:0;
 }
