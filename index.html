@@ -402,7 +402,7 @@
             </div>
           </div>
           <div class="col-md-3">
-            <h3 class="text-center circle-label">Text Game TBA</h3>
+            <h3 class="text-center circle-label">Buzzword TBA</h3>
             <div id="small-circle" class="etc-circle-no-highlight">
               <div id="etc-circle">
               </div>
@@ -429,7 +429,7 @@
               <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
-                  <img src="img/GOL2.jpg" alt="...">
+                  <img src="img/GOL2.png" alt="...">
                   <div class="carousel-caption gol-caption">
                     Recreation of John Conway's Game of Life
                   </div>
@@ -519,11 +519,15 @@
                       </div>
                       <div id="GOLcollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="GOL-heading-two">
                         <div class="panel-body">
-                          This project was created without any proper workflow, and is essentially just one by Java file. I am currently porting it into a website
-                          using javascript, it was originaly done in a self taught way. Now that i've taken some courses on the structure of programs, I feel I will create it in
-                          a much more modular way. The general algorithm is to save each living house, and check that house and it's neighboring houses if they meet the requirements.
-                          I pass each house that lives into a stack and repopulate the next cycle of the board. I'm working on a double recursion algorithm, which will be up along side <thead>
-                          website that will be up.
+                            The most recent version of the <a href="https://game-of-life-js.firebaseapp.com/" target = "_blank">game</a> is a web-app implementation using javascript where I took the original idea from JAVAFX and re-implemented it
+                            with a new recursive algorithm and added many features not found on other game of life simulators. In short, I added zooming in and out of
+                            a designated area of the map, allowing to drag the map around to have a better viewing experience, and the ability to change the framerate
+                            of the simulation. I had to make sure the dragging and zooming had to provide the correct reaction depending on the zoom of the current user
+                            (the size of the cell). This was done by taking the size of the cell and finding where the cell was with respect to the center of the board so
+                            that I could render the cell in the correct position after the user drags or zooms. The creation of the cells by the user was also done using a similar
+                            approach since I would need to get the cell at where the user clicked, and find it with respect to the center of the board. Since the cell's could be
+                            at any given length, and the board could have been dragged anywhere by the user, I would need to take into account the length of the cell and the
+                            relative coordinates of the cell with respect to both the page, and the board.
                         </div>
                       </div>
                     </div>
@@ -539,6 +543,9 @@
                         <div class="panel-body">
                           Current Github Link:
                            <a href="https://github.com/yacktu/game_of_life" target = "_blank">Here</a>
+                           <br>
+                         Current Website Link:
+                          <a href="https://game-of-life-js.firebaseapp.com/" target = "_blank">Here</a>
                         </div>
                       </div>
                     </div>
