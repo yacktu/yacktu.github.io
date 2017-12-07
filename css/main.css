@@ -3,95 +3,95 @@
 */
 /*BASE - Base styles, variables, mixins */
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
-/* line 1, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 1, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .col-centered {
   float: none;
   margin: 0 auto;
 }
 
-/* line 6, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 6, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .circle-label {
   padding: 20px;
 }
 
-/* line 10, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 10, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .about-circle-row {
   padding-top: 5%;
   padding-bottom: 10%;
 }
 
-/* line 15, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 15, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .about {
   padding-top: 2% !important;
 }
 
-/* line 19, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 19, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .top-line {
   margin-bottom: 5%;
 }
 
-/* line 23, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 23, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .bottom-small-circle {
   padding-top: 7%;
 }
 
-/* line 27, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 27, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .carousel-caption {
   background: #00cc7b;
   border-radius: 45%;
 }
 
-/* line 32, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 32, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .experience-carousel {
   padding: 20px;
   border-radius: 10px;
   background-color: #313131;
 }
 
-/* line 38, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 38, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .experience-accordian-head {
   text-align: center;
 }
 
-/* line 42, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 42, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .main {
   padding-bottom: 0;
 }
 
-/* line 46, C:/Coding/CS_Projects/my_website/scss/base/_normalize.scss */
+/* line 46, C:/Me/Me/yacktu.github.io/scss/base/_normalize.scss */
 .dot-contact {
   font-size: 25px;
 }
 
-/* line 2, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+/* line 2, C:/Me/Me/yacktu.github.io/scss/base/_base.scss */
 body {
   background: #313131;
   font-family: 'Open Sans', sans-serif;
   color: #00b36b;
 }
 
-/* line 8, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+/* line 8, C:/Me/Me/yacktu.github.io/scss/base/_base.scss */
 h1 {
   font-size: 80px;
 }
 
-/* line 12, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+/* line 12, C:/Me/Me/yacktu.github.io/scss/base/_base.scss */
 h2 {
   font-size: 36px;
 }
 
-/* line 16, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+/* line 16, C:/Me/Me/yacktu.github.io/scss/base/_base.scss */
 section {
   padding-top: 6%;
   padding-bottom: 6%;
 }
 
-/* line 21, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+/* line 21, C:/Me/Me/yacktu.github.io/scss/base/_base.scss */
 a {
   z-index: 20;
 }
 
-/* line 25, C:/Coding/CS_Projects/my_website/scss/base/_base.scss */
+/* line 25, C:/Me/Me/yacktu.github.io/scss/base/_base.scss */
 hr {
   height: 2px;
   width: 70px;
@@ -104,96 +104,96 @@ hr {
 }
 
 /*MODULES - Site components */
-/* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_typography.scss */
+/* line 1, C:/Me/Me/yacktu.github.io/scss/modules/_typography.scss */
 .social-icons {
   text-align: center;
   padding-left: 27px;
   padding-top: 30px;
 }
 
-/* line 6, C:/Coding/CS_Projects/my_website/scss/modules/_typography.scss */
+/* line 6, C:/Me/Me/yacktu.github.io/scss/modules/_typography.scss */
 .social-icons a {
   color: #00995c;
 }
 
-/* line 11, C:/Coding/CS_Projects/my_website/scss/modules/_typography.scss */
+/* line 11, C:/Me/Me/yacktu.github.io/scss/modules/_typography.scss */
 .fa {
   font-size: 30px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 1, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .title {
   padding-top: 1%;
 }
 
-/* line 5, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 5, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .about-panel {
   margin: auto !important;
   width: 75% !important;
   padding-bottom: 3%;
 }
 
-/* line 11, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 11, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .panel, .panel-dafault {
   background-color: #404040;
   border: 0;
 }
 
-/* line 17, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 17, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .panel-group .panel-heading + .panel-collapse > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
   border-top: 0px solid;
 }
 
-/* line 22, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 22, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .panel-heading {
   background-color: #2a2a2a !important;
 }
 
-/* line 25, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 25, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .panel-heading a {
   color: #8c8c8c;
 }
 
-/* line 29, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 29, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .panel-heading a:hover {
   color: #cccccc;
 }
 
-/* line 33, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 33, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .panel-heading a:active, .panel-heading a:hover, .panel-heading a:focus {
   text-decoration: none;
 }
 
-/* line 38, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 38, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .contact-title {
   text-align: center;
 }
 
-/* line 43, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 43, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .row .experience-circles {
   padding-bottom: 20%;
 }
 
-/* line 48, C:/Coding/CS_Projects/my_website/scss/modules/_blocks.scss */
+/* line 48, C:/Me/Me/yacktu.github.io/scss/modules/_blocks.scss */
 .contact-contain {
   width: 750px;
   padding-left: 50px;
 }
 
-/* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+/* line 1, C:/Me/Me/yacktu.github.io/scss/modules/_input.scss */
 .name-input {
   width: 200px;
 }
 
-/* line 5, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+/* line 5, C:/Me/Me/yacktu.github.io/scss/modules/_input.scss */
 .name-form {
   padding-left: 15px;
 }
 
-/* line 9, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+/* line 9, C:/Me/Me/yacktu.github.io/scss/modules/_input.scss */
 .message-input {
   height: 200px;
   width: 685px;
@@ -201,19 +201,19 @@ hr {
   border-radius: 6px;
 }
 
-/* line 17, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+/* line 17, C:/Me/Me/yacktu.github.io/scss/modules/_input.scss */
 .form-group .form-control {
   border-bottom: 5px solid;
   border-color: #00995c;
 }
 
-/* line 22, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+/* line 22, C:/Me/Me/yacktu.github.io/scss/modules/_input.scss */
 .form-group .message-input {
   border-bottom: 5px solid;
   border-color: #00995c;
 }
 
-/* line 28, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+/* line 28, C:/Me/Me/yacktu.github.io/scss/modules/_input.scss */
 .submit-button {
   margin-left: 44%;
   margin-top: 10px;
@@ -232,38 +232,38 @@ hr {
   background: lighten($circle-green,10%);
 }
 */
-/* line 47, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+/* line 47, C:/Me/Me/yacktu.github.io/scss/modules/_input.scss */
 .submit-button:active, .submit-button:focus {
   border: 0;
 }
 
-/* line 51, C:/Coding/CS_Projects/my_website/scss/modules/_input.scss */
+/* line 51, C:/Me/Me/yacktu.github.io/scss/modules/_input.scss */
 .contact {
   padding-bottom: 0;
 }
 
-/* line 1, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
+/* line 1, C:/Me/Me/yacktu.github.io/scss/modules/_sections.scss */
 .top-circles {
   background-color: #2a2a2a;
   width: 100%;
 }
 
-/* line 6, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
+/* line 6, C:/Me/Me/yacktu.github.io/scss/modules/_sections.scss */
 .about {
   background-color: #313131;
 }
 
-/* line 10, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
+/* line 10, C:/Me/Me/yacktu.github.io/scss/modules/_sections.scss */
 .experience {
   background-color: #363636;
 }
 
-/* line 14, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
+/* line 14, C:/Me/Me/yacktu.github.io/scss/modules/_sections.scss */
 .contact {
   background-color: #2a2a2a;
 }
 
-/* line 18, C:/Coding/CS_Projects/my_website/scss/modules/_sections.scss */
+/* line 18, C:/Me/Me/yacktu.github.io/scss/modules/_sections.scss */
 .main {
   position: relative;
   padding-top: 100px;
@@ -272,7 +272,7 @@ hr {
 /*highlight/ make bright
   #00e68a
  */
-/* line 4, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 4, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #big-circle {
   margin: 0 auto;
   width: 400px;
@@ -282,7 +282,7 @@ hr {
   position: relative;
 }
 
-/* line 13, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 13, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #me-top-circle, #experience-top-circle, #contact-top-circle, #me-person-big-circle {
   width: 380px;
   height: 380px;
@@ -294,19 +294,19 @@ hr {
   margin: -190px 0px 0px -190px;
 }
 
-/* line 23, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 23, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #big-circle:hover {
   background: #00cc7b;
   cursor: pointer;
 }
 
-/* line 28, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 28, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 .me-circle-no-highlight:hover, .etc-circle-no-highlight:hover {
   background: #00995c !important;
   cursor: default !important;
 }
 
-/* line 34, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 34, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #small-circle {
   margin: 0 auto;
   width: 200px;
@@ -316,8 +316,8 @@ hr {
   position: relative;
 }
 
-/* line 43, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
-#education-inner-small-circle, #athletic-circle, #hobbies-circle, #describe-me-circle, #game-of-life-circle, #porodomo-timer-circle, #playlist-generator-circle, #etc-circle {
+/* line 43, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
+#education-inner-small-circle, #athletic-circle, #hobbies-circle, #describe-me-circle, #game-of-life-circle, #google-circle, #email-circle, #etc-circle, #buzzword-circle {
   width: 190px;
   height: 190px;
   background: #404040;
@@ -328,85 +328,90 @@ hr {
   margin: -95px 0px 0px -95px;
 }
 
-/* line 53, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 53, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #small-circle:hover {
   background: #00cc7b;
   cursor: pointer;
 }
 
-/* line 59, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 59, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 .top-small-circle {
   min-height: 378px;
 }
 
-/* line 63, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 63, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 .top-circles {
   padding-bottom: 10%;
   padding-top: 3%;
 }
 
-/* line 68, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 68, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #collapse-education, #collapse-hobbies {
   padding-top: 3%;
 }
 
-/* line 73, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 73, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #me-top-circle {
   background-image: url(../img/me.jpg) !important;
 }
 
-/* line 77, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 77, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #experience-top-circle {
   background-image: url(../img/code.jpg) !important;
 }
 
-/* line 81, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 81, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #contact-top-circle {
   background-image: url(../img/contact.jpg) !important;
 }
 
-/* line 85, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 85, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #me-person-big-circle {
   background-image: url(../img/me-person.jpg) !important;
 }
 
-/* line 89, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 89, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #education-inner-small-circle {
   background-image: url(../img/SBU.jpg) !important;
 }
 
-/* line 93, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 93, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #hobbies-circle {
   background-image: url(../img/qube.jpg) !important;
 }
 
-/* line 97, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 97, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #athletic-circle {
   background-image: url(../img/handball.jpg) !important;
 }
 
-/* line 101, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 101, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #describe-me-circle {
   background-image: url(../img/tea.jpg) !important;
 }
 
-/* line 105, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
+/* line 105, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
 #game-of-life-circle {
   background-image: url(../img/gol-small.jpg) !important;
 }
 
-/* line 109, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
-#porodomo-timer-circle {
-  background-image: url(../img/timer-small.jpg) !important;
+/* line 109, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
+#google-circle {
+  background-image: url(../img/google-small.png) !important;
 }
 
-/* line 113, C:/Coding/CS_Projects/my_website/scss/modules/_circles.scss */
-#playlist-generator-circle {
-  background-image: url(../img/jam-small.jpg) !important;
+/* line 113, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
+#email-circle {
+  background-image: url(../img/email-small.jpg) !important;
+}
+
+/* line 117, C:/Me/Me/yacktu.github.io/scss/modules/_circles.scss */
+#buzzword-circle {
+  background-image: url(../img/buzzword-title-small.png) !important;
 }
 
 /*LAYOUTS - Styles */
-/* line 1, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+/* line 1, C:/Me/Me/yacktu.github.io/scss/layouts/_nav.scss */
 .navbar {
   height: 60px;
   position: relative;
@@ -415,7 +420,7 @@ hr {
   margin-bottom: -60px;
 }
 
-/* line 8, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+/* line 8, C:/Me/Me/yacktu.github.io/scss/layouts/_nav.scss */
 .navbar a {
   font-size: 20px;
   padding-top: 20px !important;
@@ -424,37 +429,37 @@ hr {
   padding-right: 40px !important;
 }
 
-/* line 16, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+/* line 16, C:/Me/Me/yacktu.github.io/scss/layouts/_nav.scss */
 .navbar .navbar-collapse {
   text-align: center;
 }
 
-/* line 20, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+/* line 20, C:/Me/Me/yacktu.github.io/scss/layouts/_nav.scss */
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
 }
 
-/* line 27, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+/* line 27, C:/Me/Me/yacktu.github.io/scss/layouts/_nav.scss */
 .navbar-inverse .nav li a:hover {
   outline: 0;
   color: #cccccc;
   background-color: transparent;
 }
 
-/* line 32, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+/* line 32, C:/Me/Me/yacktu.github.io/scss/layouts/_nav.scss */
 .navbar-inverse .nav li a:focus, .navbar-inverse .nav li a:active {
   color: #00b36b;
 }
 
-/* line 37, C:/Coding/CS_Projects/my_website/scss/layouts/_nav.scss */
+/* line 37, C:/Me/Me/yacktu.github.io/scss/layouts/_nav.scss */
 .navbar-scrolled {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* line 1, C:/Coding/CS_Projects/my_website/scss/layouts/_footer.scss */
+/* line 1, C:/Me/Me/yacktu.github.io/scss/layouts/_footer.scss */
 .contact-info {
   text-align: center;
   font-size: 20px;

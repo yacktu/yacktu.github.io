@@ -54,36 +54,64 @@ $(document).ready(function() {
     expCarousel.carousel("pause");
     explCarousel.carousel("pause");
 
-    $('#game-of-life-circle').click(function(){
+    $('#google-circle').click(function(){
       expCarousel.carousel(0);
       explCarousel.carousel(0);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
     });
 
-    $('#porodomo-timer-circle').click(function(){
+    $('#game-of-life-circle').click(function(){
       expCarousel.carousel(1);
       explCarousel.carousel(1);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
     });
 
-    $('#playlist-generator-circle').click(function(){
+    $('#email-circle').click(function(){
       expCarousel.carousel(2);
       explCarousel.carousel(2);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
+    });
+
+    $('#buzzword-circle').click(function(){
+      expCarousel.carousel(3);
+      explCarousel.carousel(3);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
     });
 
     //change the experience description carousel as i change the main experience carrousel
     $('.left').click(function(){
       explCarousel.carousel("prev");
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
     });
     $('.right').click(function(){
       explCarousel.carousel("next");
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
     });
 
     $('.exp-indicator0').click(function(){
       explCarousel.carousel(0);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
     })
     $('.exp-indicator1').click(function(){
       explCarousel.carousel(1);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
     })
     $('.exp-indicator2').click(function(){
       explCarousel.carousel(2);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
+    })
+    $('.exp-indicator3').click(function(){
+      explCarousel.carousel(3);
+      expCarousel.carousel("pause");
+      explCarousel.carousel("pause");
     })
 });

@@ -35,7 +35,7 @@
 
       <!--experience cirlce || middle circle-->
       <div class="col-md-4">
-        <h2 class="text-center circle-label">What I've Done</h2>
+        <h2 class="text-center circle-label">Experience</h2>
         <div id="big-circle" href="~experience">
           <div id="experience-top-circle">
           </div>
@@ -218,8 +218,7 @@
 
         <!-- middle cirlce - me-->
         <div class="col-md-4 about-circle-row">
-          <h2 class="text-center circle-label">That Random Dude Staring:
-            <br /> Jack Wu</h2>
+          <h2 class="text-center circle-label"> Jack Wu </h2>
           <hr />
           <div id="big-circle" class="me-circle-no-highlight">
             <div id="me-person-big-circle">
@@ -380,34 +379,36 @@
       <div class="row">
         <div class="experience-circles">
           <!--cirlces for things i've done-->
-          <div class="col-md-3">
+          <div class="col-md-2"></div>
+          <div class="col-md-2">
+            <h3 class="text-center circle-label">Google</h3>
+            <div id="small-circle">
+              <div id="google-circle">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
             <h3 class="text-center circle-label">Game of Life</h3>
             <div id="small-circle">
               <div id="game-of-life-circle">
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <h3 class="text-center circle-label">Porodomo Timer</h3>
+          <div class="col-md-2">
+            <h3 class="text-center circle-label">Spam E-Mail Classifier</h3>
             <div id="small-circle">
-              <div id="porodomo-timer-circle">
+              <div id="email-circle">
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <h3 class="text-center circle-label">Playlist Generator</h3>
-            <div id="small-circle">
-              <div id="playlist-generator-circle">
+          <div class="col-md-2">
+            <h3 class="text-center circle-label">Buzzword</h3>
+            <div id="small-circle" class="small-circle">
+              <div id="buzzword-circle">
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <h3 class="text-center circle-label">Buzzword TBA</h3>
-            <div id="small-circle" class="etc-circle-no-highlight">
-              <div id="etc-circle">
-              </div>
-            </div>
-          </div>
+          <div class="col-md-2"></div>
         </div>
       </div>
 
@@ -423,12 +424,19 @@
                 <li class="exp-indicator0" data-target="#experience-carousel" data-slide-to="0" class="active"></li>
                 <li class="exp-indicator1" data-target="#experience-carousel" data-slide-to="1"></li>
                 <li class="exp-indicator2" data-target="#experience-carousel" data-slide-to="2"></li>
+                <li class="exp-indicator3" data-target="#experience-carousel" data-slide-to="3"></li>
               </ol>
 
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
-
                 <div class="item active">
+                  <img src="img/google_ex.png" alt="...">
+                  <div class="carousel-caption google-caption">
+                      Google: AGSA & Google Drive
+                  </div>
+                </div>
+
+                <div class="item">
                   <img src="img/GOL2.png" alt="...">
                   <div class="carousel-caption gol-caption">
                     Recreation of John Conway's Game of Life
@@ -436,18 +444,16 @@
                 </div>
 
                 <div class="item">
-                  <img src="img/full-timer.jpg" alt="...">
-                  <div class="carousel-caption">
-                    <div class="timer-caption">
-                      First Hack Created - Runner up for most complicated
-                    </div>
+                  <img src="img/spam_results.png" alt="...">
+                  <div class="carousel-caption email-caption">
+                    Spam Email Classifier
                   </div>
                 </div>
 
                 <div class="item">
-                  <img src="img/jam-website.jpg" alt="...">
-                  <div class="carousel-caption jam-caption">
-                    Spotify Playlist Generator
+                  <img src="img/buzzword-big.png" alt="...">
+                  <div class="carousel-caption buzzword-caption">
+                    Buzzword: A Word Based Game
                   </div>
                 </div>
               </div>
@@ -473,6 +479,55 @@
               <div class="carousel-inner" role="listbox">
 
                 <div class="item active">
+                  <h2 class="experience-accordian-head">Google: Internships</h2>
+                  <!-- Accordion for projects start-->
+                  <div class="panel-group" id="Timer-accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="timerHeadingOne">
+                        <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#Timer-accordion" href="#timerCollapseOne" aria-expanded="true" aria-controls="timerCollapseOne">
+                      Android Google Search App - AGSA (2017)
+                    </a>
+                  </h4>
+                      </div>
+                      <div id="timerCollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="timerHeadingOne">
+                        <div class="panel-body">
+                          The Android Google Search App is a complicated app with millions of users daily. With this many users, optimization at a small scale
+                          can be immensely beneficial. I worked on two of these optimizations during my time at Google.
+                          <br><br>
+                          <ul>
+                            <li>
+                              Refactored workers and states associated with the “Hands Free” function ("OK-Google" in cars, Google Maps)
+                              which lead to a decrease in complication of the code base as well as an increase in developer velocity for future developers maintaining the app.
+                            </li>
+                            <br>
+                            <li>
+                              Developed a script that detected approximately 2% of AGSA’s codebase as dead code using many internal technologies. The script parsed over
+                              hundreds of files of different types to detect the dead code and notified the owners of the code using revision histories. The script is still run routinely.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="timerHeadingTwo">
+                        <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#Timer-accordion" href="#timerCollapseTwo" aria-expanded="false" aria-controls="timerCollapseTwo">
+                          Google Drive (2018)
+                        </a>
+                      </h4>
+                      </div>
+                      <div id="timerCollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="timerHeadingTwo">
+                        <div class="panel-body">
+                          TBA
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- accordion stop-->
+                </div>
+
+                <div class="item">
                   <h2 class="experience-accordian-head">Game of Life</h2>
                   <!-- Accordion for projects start-->
                   <div class="panel-group" id="GOL-accordion" role="tablist" aria-multiselectable="true">
@@ -554,78 +609,21 @@
                 </div>
 
                 <div class="item">
-                  <h2 class="experience-accordian-head">Porodomo Timer</h2>
-                  <!-- Accordion for projects start-->
-                  <div class="panel-group" id="Timer-accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="timerHeadingOne">
-                        <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#Timer-accordion" href="#timerCollapseOne" aria-expanded="true" aria-controls="timerCollapseOne">
-                      What is it?
-                    </a>
-                  </h4>
-                      </div>
-                      <div id="timerCollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="timerHeadingOne">
-                        <div class="panel-body">
-                          The porodomo timer is a timer used as a study method. It basically times your for 25 minutes, and then gives you
-                          five minutes of break.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="timerHeadingTwo">
-                        <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#Timer-accordion" href="#timerCollapseTwo" aria-expanded="false" aria-controls="timerCollapseTwo">
-                          How it works
-                        </a>
-                      </h4>
-                      </div>
-                      <div id="timerCollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="timerHeadingTwo">
-                        <div class="panel-body">
-                          My implementation of this was done at a 12 hour hackathon (my first one) and I won runner up for most intricate. The reason it was different was because this was an extension
-                          for google chrome. Normaly, google chrome extensions stop updating themselves when the extension is minimized, so I had to work around that using google background scripts.
-                          I wanted the timer to keep running in the background, and alert the user from the background when the time is up.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="timerHeadingThree">
-                        <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#Timer-accordion" href="#timerCollapseThree" aria-expanded="false" aria-controls="timerCollapseThree">
-                      More details
-                    </a>
-                  </h4>
-                      </div>
-                      <div id="timerCollapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="timerHeadingThree">
-                        <div class="panel-body">
-                          Link to github:
-                          <a href="https://github.com/yacktu/TimerExtension" targer="_blank">Here</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- accordion stop-->
-                </div>
-
-                <div class="item">
-                  <h2 class="experience-accordian-head">Jam</h2>
+                  <h2 class="experience-accordian-head">Spam E-Mail Classifier</h2>
                   <!-- Accordion for projects start-->
                   <div class="panel-group" id="jam-accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="JamHeadingOne">
                         <h4 class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#jam-accordion" href="#jamCollapseOne" aria-expanded="true" aria-controls="jamCollapseOne">
-                      What is Jam?
+                      What is a Spam Classifier?
                     </a>
                   </h4>
                       </div>
                       <div id="jamCollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="JamHeadingOne">
                         <div class="panel-body">
-                          Jam is a playlist generator that uses a reddit style voting system to generate a playlist given songs that were chosen
-                          through a spotify API. This was the first project I've ever worked on, and it was done after learning two weeks of code at
-                          Google's CSSI program. I worked on this with two other teamates, and I was responsible for the backend (server, voting, user-accounts).
-                          This was originally done because our instructor at the time had a horrible spotify playlist, so we decided to create one in which the entire
-                          class could vote on what song to put on the playlist and in what order.
+                          A spam classifier is an algorithm that takes a body of text and determines if that body of text resembles a "spam" like term. This "spam" term
+                          can be any attribute that we the classifier to look for based on the training.
                         </div>
                       </div>
                     </div>
@@ -639,35 +637,88 @@
                       </div>
                       <div id="jamCollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="JamHeadingTwo">
                         <div class="panel-body">
-                          The part that I worked on involved three things: User login, The Voting system, and Database communications. The user
-                          login was quite simple in that I just used the Google's users API. The voting system was a little more tricky, since I wanted to provide
-                          instant feedback to the user, so I had to learn a bit of AJAX to get the voting system to change dynamically  without refreshing the page.
-                          The voting system also had to have user verification so one person would not be able to vote more than once, but would still be able to change their vote.
-                          This involved multiple many-to-many relationships in the database since I had to store the song, votes on the song, and users that voted on each song.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="JamHeadingThree">
-                        <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#jam-accordion" href="#jamCollapseThree" aria-expanded="false" aria-controls="jamCollapseThree">
-                      More details
-                    </a>
-                  </h4>
-                      </div>
-                      <div id="jamCollapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="JamHeadingThree">
-                        <div class="panel-body">
-                          Outdated Website:
-                          <a href="http://jam-cssi.appspot.com/" target="_blank">Here</a>
-                          <br />
-                          Github link:
-                          <a href="https://github.com/carolineclancy/cssi_spotify" target="_blank">Here</a>
+                          This classifier works by using the popular <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier" target="_blank">Naive Bayes Algorithm</a> as
+                          a default implementation and then adding a part-of-speech(POS) weight to the algorithm to determine the reliability of introducing such a weight. More details
+                          about the implementation can be found <a href="https://www.scribd.com/document/366519633/POS-Classifier" target="_blank">here</a>. Source code can be provided.
                         </div>
                       </div>
                     </div>
                   </div>
                   <!-- accordion stop-->
                 </div>
+
+                <div class="item">
+                  <h2 class="experience-accordian-head">Buzzword</h2>
+                  <!-- Accordion for projects start-->
+                  <div class="panel-group" id="buzzword-accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="buzzword-heading-one">
+                        <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#buzzword-accordion" href="#buzzwordcollapseOne" aria-expanded="true" aria-controls="GOLcollapseOne">
+                      The Game of Life
+                    </a>
+                  </h4>
+                      </div>
+                      <div id="buzzwordcollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="buzzword-heading-one">
+                        <div class="panel-body">
+                          Buzzword is a word based grid game. The player makes words that fit the criteria to proceed score points
+                          and proceed to later levels.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="buzzword-heading-two">
+                        <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#buzzword-accordion" href="#buzzwordcollapseTwo" aria-expanded="false" aria-controls="GOLcollapseTwo">
+                          How it Works
+                          </thead>
+                        </a>
+                      </h4>
+                      </div>
+                      <div id="buzzwordcollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="buzzword-heading-two">
+                        <div class="panel-body">
+                            Buzzword features a simple encrypted login system, many levels, and a scaleable board.
+                            <ul>
+                              <br>
+                              Frameworks:
+                              <li>
+                                The board is generated though a framework which handles it's creation along with the event handlers
+                                associated with the board. The user asks the framework for a board and the framework can provide a board
+                                with variable specifications and deals with events on a seperate thread.
+                              </li>
+                              <li>
+                                Nearly every part of the app is created using a framework which regulates the colors and size of each object,
+                                therefore allowing the user of the framework an easy way to change many portions of the app.
+                              </li>
+                              <br>
+                              The GUI:
+                              <li>
+                                The GUI was created using JavaFX and the app itself was created using a app framework provided.
+                              </li>
+
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="buzzword-heading-three">
+                        <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#buzzword-accordion" href="#buzzwordcollapseThree" aria-expanded="false" aria-controls="GOLcollapseThree">
+                      More details
+                    </a>
+                  </h4>
+                      </div>
+                      <div id="buzzwordcollapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="buzzword-heading-three">
+                        <div class="panel-body">
+                          Source Code:
+                           <a href="https://bitbucket.org/JiannengWu219/buzzword/overview" target = "_blank">Here</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- accordion stop-->
+                </div>
+
               </div>
             </div>
           </div>
